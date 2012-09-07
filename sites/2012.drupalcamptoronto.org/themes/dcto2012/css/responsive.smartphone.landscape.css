@@ -12,6 +12,17 @@ html {
   font-size: 112.5%;
 }
 
+#block-system-main-menu ul li, #block-system-user-menu ul li {
+  padding: 3px 10px;
+}
+
+#block-system-main-menu, #block-system-user-menu {
+  display: block;
+}
+
+#block-menu-menu-mobile-menu {
+  display: none;
+}
 
 #admin-menu li {
   display:none;

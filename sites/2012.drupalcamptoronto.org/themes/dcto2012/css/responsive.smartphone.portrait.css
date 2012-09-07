@@ -11,3 +11,9 @@
 html {
   font-size: 112.5%;
 }
+
+
+#admin-menu li {
+display:block;
+}
+

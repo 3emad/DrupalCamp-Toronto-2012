@@ -31,7 +31,11 @@
  */
 
 html {
-  background: #fff;
+  background: #000000 url(../images/asteroid-bg-large.jpg) no-repeat center top fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 
@@ -39,6 +43,7 @@ body {
   font-family: "LeagueGothicRegular", "Trebuchet MS", "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-size: 87.5%;
 }
+
 
 
 /* =============================================================================
@@ -134,12 +139,20 @@ var {
 /*
  * Main content column wrapper
  */
-#content-column {}
+#content-column {
 
+}
 /*
  * Wraps the main-content-header, the content region and feed-icons. Use this wrapper to style the entire main content column
  */
-#main-content {}
+#main-content {
+height: 100%;
+background: #FFFFFF;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+padding: 10px;
+}
 
 /*
  * Wraps the content region, avoid applying styles to this wrapper, its used mainly for position and invisible gutters and can be problematic to style
@@ -247,7 +260,7 @@ var {
  * Logo
  */
 #logo {
-  padding: 0;
+  padding: 0 12px;
   z-index: 100;
   position: absolute; /* put logo on top of everything */
 }
@@ -1103,6 +1116,7 @@ ul.action-links li {}
  * Named fields
  */
 .field-name-body {}
+}
 
 .field-name-field-image {}
 

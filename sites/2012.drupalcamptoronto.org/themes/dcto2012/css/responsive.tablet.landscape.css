@@ -11,4 +11,15 @@
 #admin-menu li {
 display:block;
 }
+#block-system-main-menu, #block-system-user-menu {
+  display: block;
+}
+
+#block-menu-menu-mobile-menu {
+  display: none;
+}
+
+#admin-menu li {
+display:block;
+}
 
